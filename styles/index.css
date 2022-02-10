@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/lantern-g74b4e503c_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form {
+  margin: 122em;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 80px;
+  max-width: 250px;
+  background: crimson;
+}
+
+.btn {
+  background-color: rgb(238, 92, 92);
+  color: rgb(243, 240, 234);
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  border: 0;
+  border-radius: 2em;
+  max-width: 100px;
+  margin-left: 70px;
+}
+
+.login {
+  border: 0;
+  background-color: aqua;
+  max-width: 63px;
+}
+
+#search {
+  background-color: rgb(255, 123, 0);
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+#Email {
+  background-color: rgb(174, 112, 231);
+}
+
+#Password {
+  background-color: rgb(174, 112, 231);
+}
+.bar {
+  width: 200px;
+}
+
+.sub {
+  background: forestgreen;
+  border-color: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  margin-top: 4px;
+  margin-left: 80px;
+  border-radius: 2em;
+}
